@@ -28,7 +28,7 @@ const Details = () => {
     const getdata = async () => {
 
 
-        const res = await fetch(`/getuser/${id}`, {
+        const res = await fetch(`https://mern-crud-i7sg.onrender.com/getuser/${id}`, {
             method: "GET",
             headers: {
                 "Content-Type": "application/json"
@@ -50,7 +50,7 @@ const Details = () => {
         getdata();
     },[])
     const deleteuser = async (id) => {
-        const res2 = await fetch(`/deleteuser/${id}` , {
+        const res2 = await fetch(`https://mern-crud-i7sg.onrender.com/deleteuser/${id}` , {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"

@@ -35,7 +35,7 @@ const Register = () => {
         e.preventDefault();
 
         const {name,email,work,add,mobile,desc , age} =  inpval;
-        const res = await fetch("/register" , {
+        const res = await fetch("https://mern-crud-i7sg.onrender.com/register" , {
             method: "POST",
             headers:{
                 "Content-Type":"application/json"
