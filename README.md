@@ -1,11 +1,1 @@
-# crud-mern
-->Developed a MERN stack app for CRUD functionality
-->Developed a MERN stack app that allows users to create, read, update, and delete data from a database
-->Built the backend with Node.js and Express.js, creating RESTful API endpoints for data manipulation
-->Implemented MongoDB as the database to store and retrieve data
-->Used Mongoose to define models and schemas for the database
-->Integrated React.js on the frontend to provide a responsive and dynamic user interface
-->Implemented various UI components and libraries, such as Bootstrap or Material UI, to enhance user experience
-->Utilized Git and version control tools to manage codebase and collaborate with other developers
-->Followed Agile methodologies to ensure timely delivery of the project and collaborated with cross-functional teams.
-->Demonstrated skills in debugging, testing and deployment of the app on a hosting service like Render .
+
