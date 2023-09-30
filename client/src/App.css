@@ -19,3 +19,8 @@
 .right_view span{
     font-weight: 400;
 }
+
+.navbar-brand img{
+    width : 100px;
+    border-radius: 90%;
+}

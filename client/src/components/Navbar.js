@@ -1,11 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import CrudImg from "../Image/crud.png";
+import "../App.css";
 
 const Navbar = () => {
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary border border-dark">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             <img alt="logo" src={CrudImg} />
