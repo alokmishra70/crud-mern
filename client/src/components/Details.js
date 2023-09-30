@@ -9,6 +9,7 @@ import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { useNavigate, useParams } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import profileImage from "../Image/profile.png";
 
 
 
@@ -78,7 +79,7 @@ const Details = () => {
                     </div>
                     <div className="row">
                         <div className="left_view col-lg-6 col-md-6 col-12">
-                            <img src="/profile.png" style={{ width: 50 }} alt="profile" />
+                            <img src={profileImage} style={{ width: 50 }} alt="profile" />
                             <h3 className="mt-3">Name: <span>{getuserdata.name}</span></h3>
                             <h3 className="mt-3">Age: <span>{getuserdata.age}</span></h3>
                             <p className="mt-3"><MailOutlineIcon />Email: <span>{getuserdata.email}</span></p>
